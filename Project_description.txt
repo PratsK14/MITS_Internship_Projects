@@ -1,0 +1,47 @@
+Project Title:
+
+Smart Expression Calculator using Python and Tkinter
+
+Project Description:
+
+This project is a GUI-based smart calculator built using Python's Tkinter library. Unlike basic calculators that handle only two numbers and one operator, this application allows the user to enter complete mathematical expressions (e.g., 3+5*2-(4/2)) and evaluates them accurately using Python's arithmetic capabilities.
+
+The application ensures input validation using regular expressions to prevent any invalid or unsafe characters. It provides a simple and intuitive user interface with on-screen buttons for digits, operations, and parentheses, as well as keyboard support for convenience.
+
+Additionally, the calculator includes a history feature that stores the results of previous calculations and displays them upon request. This feature adds usability for users needing to refer back to recent expressions.
+
+Key Features:
+
+    Supports full mathematical expressions with +, -, *, /, (), and decimals.
+
+    Built with Tkinter for a responsive and user-friendly GUI.
+
+    Safe evaluation of expressions using eval() after regex-based filtering.
+
+    Real-time error handling for syntax errors and division by zero.
+
+    On-screen buttons for mouse input and keyboard bindings for faster use.
+
+    Calculation history displayed via a popup for easy review of previous operations.
+
+    Clean layout mimicking a physical calculator for ease of use.
+
+Technologies Used:
+
+    Python 3
+
+    Tkinter (Standard GUI Library)
+
+    Regular Expressions (re module)
+
+Potential Extensions:
+
+    Replace eval() with a custom expression parser or use ast for safer evaluation.
+
+    Add scientific functions like sin, cos, log, etc.
+
+    Implement theme switching (light/dark mode).
+
+    Add memory buttons (M+, M-, MR, MC).
+
+    Save history to a file for persistent logs.

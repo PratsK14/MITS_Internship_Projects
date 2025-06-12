@@ -1,0 +1,48 @@
+File Encryption and Decryption Tool using Python & Tkinter
+===========================================================
+
+Project Title:
+File Security Utility — A GUI-Based File Encryption and Decryption Application
+
+Project Description:
+This project is a desktop-based file security tool developed using Python and its Tkinter GUI library, integrated with the Cryptography (Fernet) module. It allows users to securely encrypt and decrypt files through a simple graphical interface, ensuring data confidentiality and safe storage or transfer.
+
+Key Features:
+- User-friendly GUI built with Tkinter
+- One-click file selection and encryption
+- Supports .enc encrypted file generation
+- Decrypts encrypted files with a .dec extension
+- Auto-generation and reuse of symmetric encryption key (secret.key)
+- Error handling and user feedback via message dialogs
+
+Technologies Used:
+- Python 3.x
+- Tkinter (built-in GUI library)
+- cryptography module (Fernet symmetric encryption)
+- Standard Python file handling
+
+Security Mechanism:
+- Symmetric encryption using the Fernet module from the cryptography package
+- A unique 256-bit key is generated and stored as secret.key for reuse across sessions
+- Ensures secure file handling without exposing raw data during encryption or decryption
+
+Use Cases:
+- Secure file transfer via email or cloud
+- Local file protection from unauthorized access
+- Lightweight desktop tool for internal data encryption
+
+File Structure:
+project/
+│
+├── tk_file_crypto.py
+├── secret.key (auto-generated)
+└── yourfile.txt (example input file)
+
+How to Run:
+1. Install the cryptography package if not already installed:
+   pip install cryptography
+
+2. Run the tool:
+   python tk_file_crypto.py
+
+3. Use the GUI to select and encrypt or decrypt your files.
